@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk" data-theme="light" data-lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Best London Girl</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="magic-bubbles"></div>
+    <div class="magic-hint">
+        <span class="uk-text">Рухай мишкою, щоб побачити магію!</span>
+        <span class="en-text">Move your mouse to see the magic!</span>
+    </div>
+
+    <div class="theme-toggle">
+        <button id="themeButton">
+            <i class="fas fa-sun"></i>
+        </button>
+        <div class="theme-menu">
+            <button data-theme="light" class="theme-option">
+                <i class="fas fa-sun"></i> Світла
+            </button>
+            <button data-theme="dark" class="theme-option">
+                <i class="fas fa-moon"></i> Темна
+            </button>
+            <button data-theme="yellow" class="theme-option">
+                <i class="fas fa-star"></i> Жовта
+            </button>
+        </div>
+    </div>
+
+    <div class="lang-toggle">
+        <button id="langButton">
+            <i class="fas fa-language"></i>
+            <span class="current-lang">UK</span>
+        </button>
+    </div>
+
+    <div class="floating-elements"></div>
+
+    <div class="container">
+        <h1 class="title">Best London Girl</h1>
+        
+        <div class="message" id="greeting">
+            <h2>
+                <span class="uk-text">Зі святом 8 Березня!</span>
+                <span class="en-text">Happy March 8th!</span>
+                <i class="fas fa-heart heart-icon"></i>
+            </h2>
+            <p class="typing-text">
+                <span class="uk-text">Бажаю тобі безмежного щастя, любові та здійснення всіх мрій! 
+                Нехай кожен день буде наповнений радістю та посмішками!</span>
+                <span class="en-text">Wishing you endless happiness, love, and all your dreams come true! 
+                May each day be filled with joy and smiles! P.S. London is lucky that you applied for this program.!</span>
+            </p>
+            <div class="interactive-buttons">
+                <button class="reaction-btn" data-emoji="❤️">❤️</button>
+                <button class="reaction-btn" data-emoji="🌹">🌹</button>
+                <button class="reaction-btn" data-emoji="✨">✨</button>
+            </div>
+        </div>
+        
+        <div class="slider-container">
+            <button class="slider-button prev">❮</button>
+            <div class="slider">
+                <img src="img1.png" class="slide active" alt="London 1">
+                <img src="img2.png" class="slide" alt="London 2">
+                <img src="img3.png" class="slide" alt="London 3">
+                <img src="img4.jpg" class="slide" alt="London 4">
+                <img src="img5.jpg" class="slide" alt="London 5">
+            </div>
+            <button class="slider-button next">❯</button>
+            <div class="slide-indicators"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
